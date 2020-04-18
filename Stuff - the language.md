@@ -14,7 +14,7 @@ The variables are initially undefined, to use them, you must initialize them. Th
 !aS02Hi
 ```
 
-The assignment opcode is `!`. Then we have the variable name, `a`. Then we have the type, `S` (a string).
+The assignment opcode is `!`. Then we have the variable name, `a`. Then we have the type, `S` (a string), then the length, `02`. Finally we have the string, `Hi`!
 
 | Opcode | Definition      | Example    | Description                                      | Variable value |
 |--------|-----------------|------------|--------------------------------------------------|----------------|
