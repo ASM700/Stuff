@@ -198,21 +198,24 @@ If you want to print the content of the variable `!` if the variable `R` is equa
 
 ### The rest
 
-Reserved for expansion (returns a FutureWarning)
+Reserved for expansion (returns a FutureWarning in Python)
 
 ```
-WARNING: FutureWarning: opcode 'I' not defined
+FutureWarning: opcode 'I' not defined
 ```
 
-### Warnings
+### Warnings (from `warnings` module)
 
 `FutureWarning` : undefined opcode that may be used in the future
+
 `DepricatedWarning`: opcode that is not in use anymore
 
-### Errors
+### Errors (from `Exception`)
 
 `InvalidOpcodeError` : invalid opcode outside of the `0x21` - `0x7E` range
+
 `InvalidArgsError` : invalid arguments for an opcode
+
 `InvalidTypeError` : invalid type for operation, e.g. you can't add a string to a boolean
 
 ### Planned expansions
