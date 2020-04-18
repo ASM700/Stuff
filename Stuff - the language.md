@@ -1,10 +1,3 @@
----
-tags: [datasheet, programming]
-title: Stuff - the language
-created: '2020-04-17T19:23:45.650Z'
-modified: '2020-04-18T22:57:29.853Z'
----
-
 # Stuff - the language
 
 ### Accepted characters
